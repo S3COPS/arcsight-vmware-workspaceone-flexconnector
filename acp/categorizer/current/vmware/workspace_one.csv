@@ -33,3 +33,4 @@ Device:ScepThumbprintSampleConfirmed,/Host/Application,/Execute/Query,,/Applicat
 Device:SecurityInformationConfirmed,/Host/Application,/Check/Security,,/Application,/Informational,/Success,Source
 Device:SecurityInformationRequested,/Host/Application,/Execute/Query,,/Application,/Informational,/Success,Source
 Device:WindowsInformationConfirmed,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
+Console:AdminUserLoginAttemptFailed,/Host/Application,/Authentication/Verify,,/Application,/Informational,/Failure,Source
