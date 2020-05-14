@@ -1,11 +1,15 @@
 event.deviceEventClassId,set.event.categoryObject,set.event.categoryBehavior,set.event.categoryTechnique,set.event.categoryDeviceGroup,set.event.categorySignificance,set.event.categoryOutcome,set.event.originator
 Console:AdminUserLoggedIn,/Host/Application,/Authentication/Verify,,/Application,/Informational,/Success,Source
+Console:AdminUserLoginAttemptFailed,/Host/Application,/Authentication/Verify,,/Application,/Informational,/Failure,Source
 Console:ApplicationAdded,/Host/Application,/Modify/Content,,/Application,/Informational,/Success,Source
-Device:ApplicationDownload,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
 Console:ApplicationInstallOnDeviceRequested,/Host/Application,/Modify/Content,,/Application,/Informational,/Attempt,Source
 Console:ApplicationPublished,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
 Console:ApplicationRemoveFromDeviceRequested,/Host/Application,/Modify/Content,,/Application,/Informational,/Attempt,Source
 Console:ApplicationSetToInactive,/Host/Application,/Modify/Configuration,,/Application,/Informational,/Success,Source
+Console:DeleteDeviceRequested,/Host/Application,/Authorization/Delete,/Policy,/Application,/Informational/Warning,/Attempt,Source
+Console:DeviceEnterpriseWipeRequested,/Host/Application,/Delete,/Policy,/Application,/Informational/Warning,/Attempt,Source
+Console:RepositoryTestConnectionFailed,/Host/Application,/Communicate/Query,,/Application,/Informational,/Failure,Source
+Device:ApplicationDownload,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
 Device:ApproveUpdateCommandConfirmed,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
 Device:AuthTokenIssued,/Host/Application,/Authorization/Add,,/Application,/Informational,/Success,Source
 Device:AuthTokenRevoked,/Host/Application,/Authorization/Delete,,/Application,/Informational/Warning,/Success,Source
@@ -14,9 +18,7 @@ Device:AvailableOsUpdatesRequested,/Host/Application,/Communicate/Query,,/Applic
 Device:BaselineInstallFailed,/Host/Application,/Check/Configuration,,/Application,/Informational/Error,/Failure,Source
 Device:BreakMDMConfirmed,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
 Device:CertificateIssued,/Host/Application,/Authorization/Add,,/Application,/Informational,/Success,Source
-Console:DeleteDeviceRequested,/Host/Application,/Authorization/Delete,/Policy,/Application,/Informational/Warning,/Attempt,Source
 Device:DeviceAttributeDeviceMCCModified,/Host/Application,/Modify/Configuration,,/Application,/Informational,/Success,Source
-Console:DeviceEnterpriseWipeRequested,/Host/Application,/Delete,/Policy,/Application,/Informational/Warning,/Attempt,Source
 Device:DeviceModelChanged,/Host/Application,/Modify/Configuration,,/Application,/Informational,/Success,Source
 Device:DeviceOemChanged,/Host/Application,/Modify/Configuration,,/Application,/Informational,/Success,Source
 Device:EnrollmentComplete,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
@@ -27,10 +29,8 @@ Device:InstallApplicationFailed,/Host/Application,/Modify/Configuration,,/Applic
 Device:InstallApplicationRequested,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
 Device:InstallProfileConfirmed,/Host/Application,/Modify/Configuration,,/Application,/Informational,/Success,Source
 Device:RemoveApplicationConfirmed,/Host/Application,/Modify/Configuration,,/Application,/Informational,/Success,Source
-Console:RepositoryTestConnectionFailed,/Host/Application,/Communicate/Query,,/Application,/Informational,/Failure,Source
 Device:Revoked,/Host/Application,/Authorization/Delete,/Policy,/Application,/Informational/Warning,/Success,Source
 Device:ScepThumbprintSampleConfirmed,/Host/Application,/Execute/Query,,/Application,/Informational,/Success,Source
 Device:SecurityInformationConfirmed,/Host/Application,/Check/Security,,/Application,/Informational,/Success,Source
 Device:SecurityInformationRequested,/Host/Application,/Execute/Query,,/Application,/Informational,/Success,Source
 Device:WindowsInformationConfirmed,/Host/Application,/Communicate/Query,,/Application,/Informational,/Success,Source
-Console:AdminUserLoginAttemptFailed,/Host/Application,/Authentication/Verify,,/Application,/Informational,/Failure,Source
